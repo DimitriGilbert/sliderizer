@@ -1,0 +1,16 @@
+call the css file in your html head,
+same for the javascript one,
+include the php file in the page you want the slider,
+use de sliderizer() function :D
+
+eg :
+
+echo sliderizer(array(
+'<h1>Here come the sliderizer...</h1><h2>A CSS3/JavaScript slider creator</h2>',
+'<h1>With sliderizor you can </h1><p>slide any HTML elements</p><p>from <div style="background:red">div</div> to <input type="text" value="form inputs" /></p>',
+'<h1>of course, images...</h1><img src="https://secure.gravatar.com/avatar/606d1f5b038e9ea60137c3a100f8331d?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" />',
+'<h1>You can also</h1><h2>choose between numerous transition effects</h2><h2>for in and out separatly</h2>',
+'<p>RUN : from side to side of the screen</p><p>FADE : play on opacity</p><p>SHRINK : shrink the content</p><p>EXPLODE : content gets biiiiiiiiiig</p><p>FALL : HAAAAaaaaaaaaaaa---....</p>',
+'<h1>Of course, if those</h1><p>dont suits you, you can style</p><p>declare your own animation in the css file ^^</p>',
+'<h1>MAKE IT SLIDE BABY !</h1>'
+));
